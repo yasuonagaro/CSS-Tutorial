@@ -1,5 +1,23 @@
 /* h1要素に適用するスタイル */
-
+h1 {
+  font-size: 32px;
+  background-color: midnightblue;
+  color: white;
+  text-align: center;
+}
 /* h3要素に適用するスタイル */
 
+div {
+  height: 40px;
+}
+h3 {
+  background-color: deepskyblue;
+  line-height: 40px;
+  text-align: center;
+}
 /* p要素に適用するスタイル */
+p {
+  color: white;
+  background-color: #3776ab;
+  text-align: center;
+}
