@@ -11,7 +11,9 @@ header {
   background-color: bisque;
 }
 
-h1, ul, li {
+h1,
+ul,
+li {
   display: inline-block;
 }
 
@@ -29,7 +31,7 @@ a {
 }
 
 a:hover {
-  color: #8B4513;
+  color: #8b4513;
 }
 
 main {
@@ -38,7 +40,7 @@ main {
 
 div {
   margin: 10px;
-  background-color: #EAD7A4;
+  background-color: #ead7a4;
   text-align: center;
 }
 
@@ -46,7 +48,17 @@ img {
   margin: 10px 0;
 }
 
-
 /* img要素にスタイルを適用 */
+img {
+  width: 300px;
+  height: 300px;
+}
 
 /* div要素にスタイルを適用 */
+div {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 320px;
+  height: 360px;
+  border: 1px solid #800000;
+}
