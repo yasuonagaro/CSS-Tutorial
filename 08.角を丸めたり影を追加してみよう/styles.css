@@ -6,12 +6,13 @@ body {
 }
 
 header {
-  background-color: #192F60;
+  background-color: #192f60;
   color: white;
   margin-top: 10px;
 }
 
-h1, h3 {
+h1,
+h3 {
   text-align: center;
   margin: 0;
   padding: 10px 0;
@@ -19,13 +20,13 @@ h1, h3 {
 
 div {
   display: flex;
-  background-color: #FAC559;
+  background-color: #fac559;
   height: 160px;
 }
 
 ul {
   padding: 0;
-  margin:12px 0;
+  margin: 12px 0;
 }
 
 li {
@@ -40,11 +41,23 @@ main {
   width: auto;
 }
 
-
 /* li要素にスタイルを適用 */
+li {
+  border: #192f60 1px solid;
+  border-radius: 8px;
+}
 
 /* header要素にスタイルを適用 */
+header {
+  border-radius: 20px 20px 0 0;
+}
 
 /* div要素にスタイルを適用 */
+div {
+  border-radius: 0 0 20px 20px;
+}
 
 /* main要素内にスタイルを適用 */
+main {
+  overflow: auto;
+}
